@@ -1,0 +1,4 @@
+Omni Copilot is an advanced personal assistant.
+It uses Retrieval-Augmented Generation (RAG) to process large context effectively.
+This system supports both online models like Google Gemini and offline models like Llama 3 via Ollama.
+The default embedding model for offline mode is all-MiniLM-L6-v2.
