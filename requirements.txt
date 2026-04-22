@@ -14,3 +14,5 @@ mcp
 fastmcp
 langchain-core
 langchain-ollama
+composio-langgraph
+langgraph

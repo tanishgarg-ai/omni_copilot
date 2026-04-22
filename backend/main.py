@@ -30,7 +30,7 @@ else:
     logger.info("Using local Ollama")
     llm = ChatOllama(model=settings.offline_llm_model, temperature=0, base_url=settings.ollama_base_url)
 
-agent = RAGAgent(mcp_client, llm=llm)
+agent = RAGAgent(llm)
 
 
 @asynccontextmanager

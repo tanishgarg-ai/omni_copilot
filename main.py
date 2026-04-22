@@ -123,7 +123,9 @@ def ask_assistant(query: str) -> str:
         return f"Error generating answer: {str(e)}"
 
 
+# Expose the FastMCP server as an ASGI app so uvicorn can run it
+app = mcp
+
 if __name__ == "__main__":
     logger.info("Starting RAG MCP Server...")
     mcp.run()
-
